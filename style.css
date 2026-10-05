@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: black;
+}
+.header{
+    display: flex;
+    background: #a47852;
+    padding: 20px 40px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: 600;
+    font-style: italic;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.home {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: block;
+    margin-top: 100px;
+    height: 600px;
+    width: 80%;
+    background: beige;
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container h1{
+    margin-bottom: 30px;
+}
+.container p{
+    width: 500px;
+    line-height: 30px;
+}
+.home-btn{
+    text-decoration: none;
+    margin: 40px;
+    background: #A35B1D;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.menu{
+    height: 100%;
+    background: beige;
+}
+.menu {
+    padding: 40px 30px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-container {
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 25px;
+    background: #a47852;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #a47852, 1px 1px 20px #a47852;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-list img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.order-btn{
+    text-decoration: none;
+    margin: 20px;
+    background: beige;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 1px 1px 20px beige, 1px 1px 40px beige;
+}
